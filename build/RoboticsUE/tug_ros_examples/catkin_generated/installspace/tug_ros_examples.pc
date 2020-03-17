@@ -1,0 +1,8 @@
+prefix=/home/robotics/catkin_ws/install
+
+Name: tug_ros_examples
+Description: Description of tug_ros_examples
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp actionlib_msgs tf

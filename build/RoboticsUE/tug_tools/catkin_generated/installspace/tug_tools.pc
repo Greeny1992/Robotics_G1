@@ -1,0 +1,8 @@
+prefix=/home/robotics/catkin_ws/install
+
+Name: tug_tools
+Description: Description of tug_tools
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp

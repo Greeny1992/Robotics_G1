@@ -1,0 +1,8 @@
+prefix=/home/robotics/catkin_ws/install
+
+Name: tug_simple_turtle
+Description: Description of tug_simple_turtle
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

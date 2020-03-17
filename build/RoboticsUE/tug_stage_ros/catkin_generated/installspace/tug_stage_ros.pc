@@ -1,0 +1,8 @@
+prefix=/home/robotics/catkin_ws/install
+
+Name: tug_stage_ros
+Description: Description of tug_stage_ros
+Version: 1.7.2
+Cflags: -I${prefix}/include -I/opt/ros/melodic/include/Stage-4.3 -I/usr/lib/fltk -I/usr/include
+Libs: -L${prefix}/lib -lstage_ros /opt/ros/melodic/lib/libstage.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: geometry_msgs nav_msgs roscpp sensor_msgs std_msgs tf

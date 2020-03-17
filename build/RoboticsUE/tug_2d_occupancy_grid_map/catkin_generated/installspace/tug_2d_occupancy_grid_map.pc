@@ -1,0 +1,8 @@
+prefix=/home/robotics/catkin_ws/install
+
+Name: tug_2d_occupancy_grid_map
+Description: Description of tug_2d_occupancy_grid_map
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltug_2d_occupancy_grid_map
+Requires: roscpp
