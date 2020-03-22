@@ -1,2 +1,2 @@
-set(tug_stage_ros_MESSAGE_FILES "/home/robotics/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/Fiducial.msg;/home/robotics/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/Fiducials.msg;/home/robotics/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/WheelCmdVel.msg;/home/robotics/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/AckermannCmd.msg")
-set(tug_stage_ros_SERVICE_FILES "/home/robotics/catkin_ws/src/RoboticsUE/tug_stage_ros/srv/SetRobotPose.srv")
+set(tug_stage_ros_MESSAGE_FILES "/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/Fiducial.msg;/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/Fiducials.msg;/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/WheelCmdVel.msg;/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_stage_ros/msg/AckermannCmd.msg")
+set(tug_stage_ros_SERVICE_FILES "/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_stage_ros/srv/SetRobotPose.srv")

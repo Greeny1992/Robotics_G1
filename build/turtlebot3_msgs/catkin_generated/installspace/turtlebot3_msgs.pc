@@ -1,4 +1,4 @@
-prefix=/home/robotics/catkin_ws/install
+prefix=/home/robotics/Robotics_G1/catkin_ws/install
 
 Name: turtlebot3_msgs
 Description: Description of turtlebot3_msgs

@@ -1,8 +1,8 @@
-prefix=/home/robotics/catkin_ws/devel
+prefix=/home/robotics/Robotics_G1/catkin_ws/devel
 
 Name: tug_ros_examples
 Description: Description of tug_ros_examples
 Version: 0.0.0
-Cflags: -I/home/robotics/catkin_ws/devel/include
+Cflags: -I/home/robotics/Robotics_G1/catkin_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: roscpp actionlib_msgs tf

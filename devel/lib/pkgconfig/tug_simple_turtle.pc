@@ -1,8 +1,8 @@
-prefix=/home/robotics/catkin_ws/devel
+prefix=/home/robotics/Robotics_G1/catkin_ws/devel
 
 Name: tug_simple_turtle
 Description: Description of tug_simple_turtle
 Version: 0.0.0
-Cflags: -I/home/robotics/catkin_ws/src/RoboticsUE/tug_simple_turtle/include
+Cflags: -I/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_simple_turtle/include
 Libs: -L${prefix}/lib 
 Requires: 

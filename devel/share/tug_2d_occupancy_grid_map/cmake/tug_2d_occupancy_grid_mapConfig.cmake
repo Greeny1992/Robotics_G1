@@ -67,14 +67,14 @@ set(tug_2d_occupancy_grid_map_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(tug_2d_occupancy_grid_map_SOURCE_PREFIX /home/robotics/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map)
-  set(tug_2d_occupancy_grid_map_DEVEL_PREFIX /home/robotics/catkin_ws/devel)
+  set(tug_2d_occupancy_grid_map_SOURCE_PREFIX /home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map)
+  set(tug_2d_occupancy_grid_map_DEVEL_PREFIX /home/robotics/Robotics_G1/catkin_ws/devel)
   set(tug_2d_occupancy_grid_map_INSTALL_PREFIX "")
   set(tug_2d_occupancy_grid_map_PREFIX ${tug_2d_occupancy_grid_map_DEVEL_PREFIX})
 else()
   set(tug_2d_occupancy_grid_map_SOURCE_PREFIX "")
   set(tug_2d_occupancy_grid_map_DEVEL_PREFIX "")
-  set(tug_2d_occupancy_grid_map_INSTALL_PREFIX /home/robotics/catkin_ws/install)
+  set(tug_2d_occupancy_grid_map_INSTALL_PREFIX /home/robotics/Robotics_G1/catkin_ws/install)
   set(tug_2d_occupancy_grid_map_PREFIX ${tug_2d_occupancy_grid_map_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(tug_2d_occupancy_grid_map_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/robotics/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map/include " STREQUAL " ")
+if(NOT "/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map/include " STREQUAL " ")
   set(tug_2d_occupancy_grid_map_INCLUDE_DIRS "")
-  set(_include_dirs "/home/robotics/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map/include")
+  set(_include_dirs "/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/robotics/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map/includ
         message(FATAL_ERROR "Project 'tug_2d_occupancy_grid_map' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'tug_2d_occupancy_grid_map' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/robotics/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'tug_2d_occupancy_grid_map' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_2d_occupancy_grid_map/${idir}'.  ${_report}")
     endif()
     _list_append_unique(tug_2d_occupancy_grid_map_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robotics/catkin_ws/devel/lib;/home/robotics/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/robotics/Robotics_G1/catkin_ws/devel/lib;/home/robotics/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

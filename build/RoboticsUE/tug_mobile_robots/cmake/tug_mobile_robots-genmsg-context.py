@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/robotics/catkin_ws/src/RoboticsUE/tug_mobile_robots/srv/CallMovement.srv"
+services_str = "/home/robotics/Robotics_G1/catkin_ws/src/RoboticsUE/tug_mobile_robots/srv/CallMovement.srv"
 pkg_name = "tug_mobile_robots"
 dependencies_str = "geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

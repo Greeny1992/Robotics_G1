@@ -1,4 +1,4 @@
-prefix=/home/robotics/catkin_ws/install
+prefix=/home/robotics/Robotics_G1/catkin_ws/install
 
 Name: tug_2d_occupancy_grid_map
 Description: Description of tug_2d_occupancy_grid_map

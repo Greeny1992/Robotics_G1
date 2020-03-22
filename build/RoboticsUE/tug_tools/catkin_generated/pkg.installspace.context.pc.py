@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "tug_tools"
-PROJECT_SPACE_DIR = "/home/robotics/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/robotics/Robotics_G1/catkin_ws/install"
 PROJECT_VERSION = "0.0.0"

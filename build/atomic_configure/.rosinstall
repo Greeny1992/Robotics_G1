@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/robotics/catkin_ws/devel/setup.sh
+    local-name: /home/robotics/Robotics_G1/catkin_ws/devel/setup.sh
